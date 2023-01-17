@@ -1,0 +1,81 @@
+.info__container{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: .8rem;
+    justify-content: space-between;
+}
+
+.info__header{
+   display: flex;
+   align-items: center;
+   gap: 4px; 
+}
+
+.info__user{
+    display: flex;
+    gap: 8px;
+    flex-direction: column; 
+}
+
+.info__userName{
+    opacity: .6;
+}
+
+.info__avatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 1000px;
+}
+
+
+.aside__boton{
+    cursor: pointer;
+    padding:6px 16px;
+    border: none;
+    border-radius: 999px;
+    font-weight: bold;
+    margin-left: 16px;
+    transition: 0.1s ease-in-out background-color;
+    
+}
+
+.aside__boton:hover{
+    opacity: .8;
+}
+
+.aside__boton.isFollow{
+    cursor: pointer;
+    background-color: transparent;
+    border: solid 1px #fff;
+    color: #fff;
+    width: 130px;
+}
+
+.aside__boton.isFollow:hover{
+    background-color: rgba(255, 97, 97, 0.081);
+    color: red;
+    border: solid 1px red;
+    transition: .3s ease all;
+}
+
+.aside__text{
+    display: block;
+}
+
+.aside__boton.isFollow:hover .aside__text{
+    display: none;
+}
+
+.aside__stopFollow{
+    display: none;
+}
+
+.aside__boton.isFollow:hover .aside__stopFollow{
+    display: block;
+}
+
+
+
+
+
